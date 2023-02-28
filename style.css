@@ -1,0 +1,62 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
+ 
+body{
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    
+}
+.cartao-visita{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 0px;
+    justify-content: center;
+    align-items:center;
+    width: 330px ;
+    height: 350px;
+    border-radius: 10px;
+    color: hsl(227, 10%, 46%);
+   
+}
+
+strong{
+    font-weight: 700;
+    color: black;
+}
+
+img{
+    padding:25px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+hr{
+    width: 100%;
+}
+p{
+    padding:10px;
+}
+
+.div-lista{
+    margin: 05px;
+    padding: 05px;
+    flex-basis: 0;
+    flex-shrink: 2;
+    flex-grow: 0;
+ 
+}
+.lista{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    margin: 00px;
+    padding: 05px;
+}
